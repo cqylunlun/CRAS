@@ -83,7 +83,7 @@ Please cite the following paper if the code and dataset help your project:
 @article{chen2025center,
   title={Center-aware Residual Anomaly Synthesis for Multi-class Industrial Anomaly Detection},
   author={Chen, Qiyu and Luo, Huiyuan and Yao, Haiming and Luo, Wei and Qu, Zhen and Lv, Chengkan and Zhang, Zhengtao},
-  journal={arXiv preprint arXiv:2503.02424},
+  journal={arXiv preprint arXiv:2505.17551},
   year={2025}
 }
 ```
