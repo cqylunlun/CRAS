@@ -1,4 +1,4 @@
-datapath=/root/cqy/dataset/VisA_modify
+datapath=/root/cqy/dataset/VisA
 classes=('candle' 'capsules' 'cashew' 'chewinggum' 'fryum' 'macaroni1' 'macaroni2' 'pcb1' 'pcb2' 'pcb3' 'pcb4' 'pipe_fryum')
 flags=($(for class in "${classes[@]}"; do echo '-d '"${class}"; done))
 
