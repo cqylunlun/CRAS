@@ -1,5 +1,9 @@
 # CRAS
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/center-aware-residual-anomaly-synthesis-for/multi-class-anomaly-detection-on-mvtec-ad)](https://paperswithcode.com/sota/multi-class-anomaly-detection-on-mvtec-ad?p=center-aware-residual-anomaly-synthesis-for)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/center-aware-residual-anomaly-synthesis-for/anomaly-detection-on-mpdd)](https://paperswithcode.com/sota/anomaly-detection-on-mpdd?p=center-aware-residual-anomaly-synthesis-for)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/center-aware-residual-anomaly-synthesis-for/multi-class-anomaly-detection-on-itdd)](https://paperswithcode.com/sota/multi-class-anomaly-detection-on-itdd?p=center-aware-residual-anomaly-synthesis-for)
+
 ![](figures/CRAS_schematic.png)
 
 **Center-aware Residual Anomaly Synthesis for Multi-class Industrial Anomaly Detection**
