@@ -3,6 +3,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/center-aware-residual-anomaly-synthesis-for/multi-class-anomaly-detection-on-mvtec-ad)](https://paperswithcode.com/sota/multi-class-anomaly-detection-on-mvtec-ad?p=center-aware-residual-anomaly-synthesis-for)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/center-aware-residual-anomaly-synthesis-for/anomaly-detection-on-mpdd)](https://paperswithcode.com/sota/anomaly-detection-on-mpdd?p=center-aware-residual-anomaly-synthesis-for)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/center-aware-residual-anomaly-synthesis-for/multi-class-anomaly-detection-on-itdd)](https://paperswithcode.com/sota/multi-class-anomaly-detection-on-itdd?p=center-aware-residual-anomaly-synthesis-for)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/center-aware-residual-anomaly-synthesis-for/anomaly-detection-on-mvtec-ad)](https://paperswithcode.com/sota/anomaly-detection-on-mvtec-ad?p=center-aware-residual-anomaly-synthesis-for)
 
 ![](figures/CRAS_schematic.png)
 
@@ -10,7 +11,7 @@
 
 _Qiyu Chen, Huiyuan Luo, Haiming Yao, Wei Luo, Zhen Qu, Chengkan Lv*, Zhengtao Zhang_
 
-IEEE DOI Link & 
+IEEE DOI Link &
 [ArXiv Preprint Link](https://arxiv.org/abs/2505.17551)
 
 ## Table of Contents
@@ -47,8 +48,8 @@ However, you need to run the [provided script](https://github.com/amazon-science
 to convert the VisA dataset to the same layout as MVTec AD.
 
 - MVTec AD ([Download link](https://www.mvtec.com/company/research/datasets/mvtec-ad/))
-- VisA ([Download link](https://github.com/amazon-science/spot-diff/))
 - MPDD ([Download link](https://github.com/stepanje/MPDD/))
+- VisA ([Download link](https://github.com/amazon-science/spot-diff/))
 
 We also release the model weights of CRAS on MVTec AD reported in the paper.
 If you want to further explore based on these models,
@@ -62,13 +63,13 @@ Edit `./shell/run-dataset.sh` to configure arguments `--datapath`, `--classes`, 
 Please modify argument `--test` to 'ckpt' / 'test' to toggle between training and testing modes.
 
 ```
-bash run-dataset.sh
+bash run-dataset-multi.sh
 ```
 
 _"Note that 'dataset' refers to any dataset.
-Currently, the `shell` folder contains scripts for four datasets,
-such as `run-mvtec.sh` for MVTec AD. If you want to train your own dataset,
-please create a new `run-*.sh` file."_
+Currently, the `shell` folder contains scripts for four datasets under the single-class and multi-class settings,
+such as `run-mvtec-multi.sh` for MVTec AD under multi-class setting. If you want to train your own dataset,
+please create a new `run-*-*.sh` file."_
 
 ## Dataset Release
 ### ITDD ([Download link](https://drive.google.com/file/d/1Iy-f_jxJFhSxDc4J0f85wwQKuwj1NzvX/view?usp=sharing/))
