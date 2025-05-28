@@ -59,11 +59,11 @@ and move it to the root directory of this repository.
 Note that you should clear the existing results folder before moving.
 
 ## Run Experiments
-Edit `./shell/run-dataset.sh` to configure arguments `--datapath`, `--classes`, and hyperparameter settings.
+Edit `./shell/run-dataset-setting.sh` to configure arguments `--datapath`, `--classes`, and hyperparameter settings.
 Please modify argument `--test` to 'ckpt' / 'test' to toggle between training and testing modes.
 
 ```
-bash run-dataset-multi.sh
+bash run-dataset-setting.sh
 ```
 
 _"Note that 'dataset' refers to any dataset.
