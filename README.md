@@ -30,6 +30,13 @@ CRAS aims to address inter-class interference and intra-class overlap in multi-c
 through center-aware residual learning and distance-guided anomaly synthesis.
 
 This repository also contains the self-built dataset ITDD proposed in our paper.
+Here, we present a brief summary of CRAS's performance across several benchmark datasets.
+
+| Multi-class  | MVTec AD |  VisA   |  MPDD   |  ITDD   | Single-class | MVTec AD |  MPDD   |
+|:------------:|:--------:|:-------:|:-------:|:-------:|:------------:|:--------:|:-------:|
+|   I-AUROC    |  98.3%   |  93.5%  |  95.0%  |  99.4%  |   I-AUROC    |  99.7%   |  98.8%  |
+|   P-AUROC    |  98.0%   |  97.7%  |  98.3%  |  97.8%  |   P-AUROC    |  98.4%   |  98.7%  |
+
 
 ## Environments
 Create a new conda environment and install required packages.
