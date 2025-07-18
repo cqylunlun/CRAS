@@ -144,7 +144,7 @@ class CRAS(torch.nn.Module):
             feature = feature.reshape(
                 feature.shape[0], patch_dims[0], patch_dims[1], *feature.shape[2:]
             )
-            feature = feature.permute(0, -3, -2, -1, 1, 2)
+            feature = feature.permute(0, 3, 4, 5, 1, 2)
             perm_base_shape = feature.shape
             feature = feature.reshape(-1, *feature.shape[-2:])
             feature = F.interpolate(
@@ -157,7 +157,7 @@ class CRAS(torch.nn.Module):
             feature = feature.reshape(
                 *perm_base_shape[:-2], ref_num_patches[0], ref_num_patches[1]
             )
-            feature = feature.permute(0, -2, -1, 1, 2, 3)
+            feature = feature.permute(0, 4, 5, 1, 2, 3)
             feature = feature.reshape(len(feature), -1, *feature.shape[-3:])
             patch_features[i] = feature
 
