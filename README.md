@@ -101,9 +101,9 @@ Please cite the following paper if the code and dataset help your project:
   author={Chen, Qiyu and Luo, Huiyuan and Yao, Haiming and Luo, Wei and Qu, Zhen and Lv, Chengkan and Zhang, Zhengtao},
   journal={IEEE Transactions on Industrial Informatics}, 
   year={2025},
-  volume={},
-  number={},
-  pages={1-11}
+  volume={21},
+  number={9},
+  pages={7276-7286},
 }
 ```
 
