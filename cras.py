@@ -298,7 +298,7 @@ class CRAS(torch.nn.Module):
 
             # 2.Center Search
             count_patch = true_feats.shape[0] // img.shape[0]
-            class_index = torch.tensor([self.class_names.index(path.split('/')[-4]) for path in data_item["image_path"]])
+            class_index = torch.tensor([self.class_names.index(path.split(os.sep)[-4]) for path in data_item["image_path"]])
             center_bank = self.c2[class_index]
 
             center_feats = torch.zeros_like(true_feats)
